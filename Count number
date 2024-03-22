@@ -1,0 +1,13 @@
+public class test {
+    public static void main(String[] args) {
+       int i=2345;
+       int count=0;
+       while (i!=0){
+           int last = i%10;
+           System.out.println(last);
+           count++;
+           i = i/10;
+       }
+        System.out.println(count);
+    }
+}
